@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>聊一聊React：思想 | 白阳的博客</title>
+    <meta name="generator" content="VuePress 1.6.0">
+    <link name="icon" href="/logo.jpg">
+    <meta name="description" content="随便写写">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+    <link rel="preload" href="/assets/css/0.styles.35e48852.css" as="style"><link rel="preload" href="/assets/js/app.4d1d1895.js" as="script"><link rel="preload" href="/assets/js/4.aa2997f2.js" as="script"><link rel="preload" href="/assets/js/1.595ede1b.js" as="script"><link rel="preload" href="/assets/js/12.e3cda7b2.js" as="script"><link rel="prefetch" href="/assets/js/10.5035925b.js"><link rel="prefetch" href="/assets/js/11.f403f068.js"><link rel="prefetch" href="/assets/js/13.f42d56d9.js"><link rel="prefetch" href="/assets/js/14.119ce498.js"><link rel="prefetch" href="/assets/js/15.2b3d1410.js"><link rel="prefetch" href="/assets/js/16.55fc07e8.js"><link rel="prefetch" href="/assets/js/5.0a17a9fe.js"><link rel="prefetch" href="/assets/js/6.7ff87fc7.js"><link rel="prefetch" href="/assets/js/7.217dd41d.js"><link rel="prefetch" href="/assets/js/8.b4b57bd0.js"><link rel="prefetch" href="/assets/js/9.17ac0504.js"><link rel="prefetch" href="/assets/js/vendors~flowchart.47bb62f4.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.35e48852.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container no-sidebar" data-v-2d5f533b><div data-v-2d5f533b><div id="loader-wrapper" class="loading-wrapper" data-v-d48f4d20 data-v-2d5f533b data-v-2d5f533b><div class="loader-main" data-v-d48f4d20><div data-v-d48f4d20></div><div data-v-d48f4d20></div><div data-v-d48f4d20></div><div data-v-d48f4d20></div></div> <!----> <!----></div> <div class="password-shadow password-wrapper-out" style="display:none;" data-v-64685f0e data-v-2d5f533b data-v-2d5f533b><h3 class="title" style="display:none;" data-v-64685f0e data-v-64685f0e>白阳的博客</h3> <!----> <label id="box" class="inputBox" style="display:none;" data-v-64685f0e data-v-64685f0e><input type="password" value="" data-v-64685f0e> <span data-v-64685f0e>Konck! Knock!</span> <button data-v-64685f0e>OK</button></label> <div class="footer" style="display:none;" data-v-64685f0e data-v-64685f0e><span data-v-64685f0e><i class="iconfont reco-theme" data-v-64685f0e></i> <a target="blank" href="https://vuepress-theme-reco.recoluan.com" data-v-64685f0e>vuePress-theme-reco</a></span> <span data-v-64685f0e><i class="iconfont reco-copyright" data-v-64685f0e></i> <a data-v-64685f0e><span data-v-64685f0e>白阳</span>
+            
+          <!---->
+          2020
+        </a></span></div></div> <div class="hide" data-v-2d5f533b><header class="navbar" data-v-2d5f533b><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><img src="/logo.jpg" alt="白阳的博客" class="logo"> <span class="site-name">白阳的博客</span></a> <div class="links"><div class="color-picker"><a class="color-button"><i class="iconfont reco-color"></i></a> <div class="color-picker-menu" style="display:none;"><div class="mode-options"><h4 class="title">Choose mode</h4> <ul class="color-mode-options"><li class="dark">dark</li><li class="auto active">auto</li><li class="light">light</li></ul></div></div></div> <div class="search-box"><i class="iconfont reco-search"></i> <input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-category"></i>
+      Category
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/categories/tech/" class="nav-link"><i class="iconfont undefined"></i>
+  tech
+</a></li></ul></div></div><div class="nav-item"><a href="/tag/" class="nav-link"><i class="iconfont reco-tag"></i>
+  Tag
+</a></div><div class="nav-item"><a href="/timeline/" class="nav-link"><i class="iconfont reco-date"></i>
+  TimeLine
+</a></div> <!----></nav></div></header> <div class="sidebar-mask" data-v-2d5f533b></div> <aside class="sidebar" data-v-2d5f533b><div class="personal-info-wrapper" data-v-ca798c94 data-v-2d5f533b><!----> <h3 class="name" data-v-ca798c94>
+    白阳
+  </h3> <div class="num" data-v-ca798c94><div data-v-ca798c94><h3 data-v-ca798c94>2</h3> <h6 data-v-ca798c94>Article</h6></div> <div data-v-ca798c94><h3 data-v-ca798c94>3</h3> <h6 data-v-ca798c94>Tag</h6></div></div> <hr data-v-ca798c94></div> <nav class="nav-links"><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-category"></i>
+      Category
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/categories/tech/" class="nav-link"><i class="iconfont undefined"></i>
+  tech
+</a></li></ul></div></div><div class="nav-item"><a href="/tag/" class="nav-link"><i class="iconfont reco-tag"></i>
+  Tag
+</a></div><div class="nav-item"><a href="/timeline/" class="nav-link"><i class="iconfont reco-date"></i>
+  TimeLine
+</a></div> <!----></nav> <!----> </aside> <div class="password-shadow password-wrapper-in" style="display:none;" data-v-64685f0e data-v-2d5f533b><h3 class="title" style="display:none;" data-v-64685f0e data-v-64685f0e>聊一聊React：思想</h3> <!----> <label id="box" class="inputBox" style="display:none;" data-v-64685f0e data-v-64685f0e><input type="password" value="" data-v-64685f0e> <span data-v-64685f0e>Konck! Knock!</span> <button data-v-64685f0e>OK</button></label> <div class="footer" style="display:none;" data-v-64685f0e data-v-64685f0e><span data-v-64685f0e><i class="iconfont reco-theme" data-v-64685f0e></i> <a target="blank" href="https://vuepress-theme-reco.recoluan.com" data-v-64685f0e>vuePress-theme-reco</a></span> <span data-v-64685f0e><i class="iconfont reco-copyright" data-v-64685f0e></i> <a data-v-64685f0e><span data-v-64685f0e>白阳</span>
+            
+          <!---->
+          2020
+        </a></span></div></div> <div data-v-2d5f533b><main class="page"><div class="page-title" style="display:none;"><h1 class="title">聊一聊React：思想</h1> <div data-v-3b7f5bdf><i class="iconfont reco-account" data-v-3b7f5bdf><span data-v-3b7f5bdf>白阳</span></i> <i class="iconfont reco-date" data-v-3b7f5bdf><span data-v-3b7f5bdf>2020-10-10</span></i> <!----> <i class="iconfont reco-tag tags" data-v-3b7f5bdf><span class="tag-item" data-v-3b7f5bdf>arch</span></i></div></div> <div class="theme-reco-content content__default" style="display:none;"><p><img src="https://chop-chop.org/app/uploads/2019/05/logo-react-blue-1.svg" alt="An image"></p> <h3 id="源起">源起</h3> <div class="language-dart extra-class"><pre class="language-dart"><code><span class="token function">Tech</span><span class="token punctuation">(</span>
+  name<span class="token punctuation">:</span><span class="token string">'React'</span><span class="token punctuation">,</span>
+  since<span class="token punctuation">:</span><span class="token string">'2013'</span>
+<span class="token punctuation">)</span>
+</code></pre></div><p>在相当长的一段时间里，Facebook网站的聊天栏有一个bug：当用户看到了新消息提示，点开后却没有新消息。开发们多次尝试修复，在以为自己已经修复的情况下，问题却又再次出现。</p> <p>消息处理函数很庞大且有大量DOM操作，而一个页面里会有多个聊天会话，因为使用了双向数据绑定，就很难跟踪数据流。</p> <p>为了解决这个问题，Facebook提出了Flux应用架构，并开发了React库，Flux基于<a>单向数据流（one-way data flow）</a>思想，状态是事实的唯一源头(The state is a single source of truth)，React会监听状态的变化，当状态发生改变，相应地重绘组件。</p> <p>基于上面的背景，我们可以推测，Flux应用架构及React库之所以诞生可能是为了解决两个问题：
+<ul><li>应用状态问题</li> <li>Dom操作问题</li></ul>
+在复杂的应用场景下，如果任何环节都可能修改状态，当出现一个应用状态时，我们便难以知道应用状态改变的源头。Flux实现了单向数据流，而React利用虚Dom提高渲染效率，利用组件组织UI，接下来会着重介绍介绍React的设计思想，对于其细节不会深究。</p> <h3 id="思想">思想</h3> <p>数学概念里，函数是一种特殊映射，而映射关系也可以称之为变换（Transformation），<code>y = f(x)</code>，<b>f</b>就是一种变换，我们只关注单值函数，即给定一个<b>x</b>,就有唯一的<b>y</b>与之对应，那么相同输入，一定就有相同输出。</p> <h4 id="_0x01-变换-transformation">0x01 变换(Transformation)</h4> <p>React认为UI是一种数据形式到另一种数据形式的变换(Transformation)，即UI = f(data)，同样的输入必定有同样的结果，而对应到计算机概念里，就是<a href="https://zh.wikipedia.org/wiki/%E7%BA%AF%E5%87%BD%E6%95%B0">纯函数</a>。</p>
+有一天你接到这样一个需求：把充钱的用户，名字突出展示，比如这样：<b>王老五</b>、<b>马爸爸</b>、路人甲、路人乙，你刚好在看React设计思想，这个展示效果，可以用函数表示，只要是充钱的用户就给他突出展示<p></p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token comment">//充钱用户专属</span>
+<span class="token keyword">function</span> <span class="token function">VipBox</span><span class="token punctuation">(</span><span class="token parameter">name</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token keyword">return</span> <span class="token punctuation">{</span> fontWeight<span class="token operator">:</span> <span class="token string">'bold'</span><span class="token punctuation">,</span> labelContent<span class="token operator">:</span> name <span class="token punctuation">}</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token comment">//白嫖用户专属</span>
+<span class="token keyword">function</span> <span class="token function">NormalBox</span><span class="token punctuation">(</span><span class="token parameter">name</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token keyword">return</span> <span class="token punctuation">{</span> labelContent<span class="token operator">:</span> name <span class="token punctuation">}</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre></div><div class="language- extra-class"><pre class="language-text"><code>'马爸爸' -&gt;
+{ fontWeight: 'bold', labelContent: '马爸爸' };
+'路人甲' -&gt;
+{ labelContent: '路人甲' };
+</code></pre></div><p>我对这种通过函数表示UI的方式的理解是，给定数据，生成UI界面的<b>描述</b></p> <h4 id="_0x02-抽象-abstraction">0x02 抽象(Abstraction)</h4> <blockquote><p>UI界面里可能有若干View及Layout，你不可能仅用一个函数就能实现复杂的UI，这时候就需要把UI抽象成多个隐藏内部细节，又可复用的函数。通过在一个函数中调用另一个函数来实现复杂的 UI，这就是抽象</p></blockquote> <p>当你自信满满地完成上述功能，准备下班时，产品在蹲坑时产生了一个新的灵感：加个框，才更突出。你心里有一万只草泥马，手起刀落......</p>
+两分钟后，新的代码出来了（还好VipBox可以复用，嘿嘿)：<p></p><p></p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">function</span> <span class="token function">FancyVipBox</span><span class="token punctuation">(</span><span class="token parameter">user</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token keyword">return</span> <span class="token punctuation">{</span>
+    borderStyle<span class="token operator">:</span> <span class="token string">'1px solid blue'</span><span class="token punctuation">,</span>
+    childContent<span class="token operator">:</span> <span class="token punctuation">[</span>
+      <span class="token string">'Name: '</span><span class="token punctuation">,</span>
+      <span class="token function">VipBox</span><span class="token punctuation">(</span>user<span class="token punctuation">.</span>chineseName <span class="token operator">+</span> <span class="token string">'('</span> <span class="token operator">+</span> user<span class="token punctuation">.</span>englishName <span class="token operator">+</span> <span class="token string">')'</span><span class="token punctuation">)</span>
+    <span class="token punctuation">]</span>
+  <span class="token punctuation">}</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre></div><div class="language- extra-class"><pre class="language-text"><code>{ chineseName: '马爸爸', englishName: 'Jack Ma' } -&gt;
+{
+  borderStyle: '1px solid blue',
+  childContent: [
+    'Name: ',
+    { fontWeight: 'bold', labelContent: '马爸爸(Jack Ma)' }
+  ]
+};
+</code></pre></div><h4 id="_0x03-组合-composition">0x03 组合(Composition)</h4> <p>第二天早上，产品来到了你的桌前，面色凝重，就像这一天的天气。</p>
+“什么？照片也要加边框，太丑了吧！”<p></p>
+“老板说的”<p></p>
+“好，我马上加”<p></p>
+边框盒子，可以包裹任何抽象的内容，不一定要是VipBox啊，所以可以这样改：<p></p><p></p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">function</span> <span class="token function">FancyBox</span><span class="token punctuation">(</span><span class="token parameter">children</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token keyword">return</span> <span class="token punctuation">{</span>
+    borderStyle<span class="token operator">:</span> <span class="token string">'1px solid blue'</span><span class="token punctuation">,</span>
+    children<span class="token operator">:</span> children
+  <span class="token punctuation">}</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre></div><p>这样很多需要边框的场景都可以复用了，在展示充钱用户场景，可以这样写：</p><p></p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">function</span> <span class="token function">FancyUserBox</span><span class="token punctuation">(</span><span class="token parameter">user</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token keyword">return</span> <span class="token function">FancyBox</span><span class="token punctuation">(</span><span class="token punctuation">[</span>
+    <span class="token string">'Name: '</span><span class="token punctuation">,</span>
+    <span class="token function">VipBox</span><span class="token punctuation">(</span>user<span class="token punctuation">.</span>chineseName <span class="token operator">+</span> <span class="token string">'('</span> <span class="token operator">+</span> user<span class="token punctuation">.</span>englishName <span class="token operator">+</span> <span class="token string">')'</span><span class="token punctuation">)</span>
+  <span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre></div><p>在展示充钱用户图片的场景，可以这样写：</p><p></p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">function</span> <span class="token function">FancyImageBox</span><span class="token punctuation">(</span><span class="token parameter">url</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token keyword">return</span> <span class="token function">FancyBox</span><span class="token punctuation">(</span><span class="token punctuation">[</span>
+    <span class="token function">Image</span><span class="token punctuation">(</span>url<span class="token punctuation">)</span>
+  <span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre></div><p>可以看到VipBox，FancyBox都是对一种展示效果的抽象，与具体业务场景无关，而FancyBox是通过对前者的组合，创建出的新的抽象：</p><p></p> <blockquote><p>为了真正达到重用的特性，只重用叶子然后每次都为他们创建一个新的容器是不够的。你可以将其他抽象的容器再次进行组合。我理解的“组合”就是将两个或者多个不同的抽象组织起来，成为一个新的抽象</p></blockquote> <h4 id="_0x04-状态-state">0x04 状态(State)</h4> <blockquote><p>UI 不单单是对服务器端或业务逻辑状态的复制。实际上还有很多状态是针对具体的渲染目标。举个例子，在一个 text field 中打字。它不一定要复制到其他页面或者你的手机设备。滚动位置这个状态是一个典型的你几乎不会复制到多个渲染目标的。我们倾向于使用不可变的数据模型。我们把可以改变 state 的函数串联起来作为原点放置在顶层。</p></blockquote> <p>下面的例子中，likes这个状态不会传递到所有渲染目标，仅仅针对LikeBox，而LikeButton可以产生更改likes的行为。</p><p></p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">function</span> <span class="token function">FancyUserBox</span><span class="token punctuation">(</span><span class="token parameter">user<span class="token punctuation">,</span> likes<span class="token punctuation">,</span> onClick</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token keyword">return</span> <span class="token function">FancyBox</span><span class="token punctuation">(</span><span class="token punctuation">[</span>
+    <span class="token string">'Name: '</span><span class="token punctuation">,</span> <span class="token function">VipBox</span><span class="token punctuation">(</span>user<span class="token punctuation">.</span>chineseName <span class="token operator">+</span> <span class="token string">'('</span> <span class="token operator">+</span> user<span class="token punctuation">.</span>englishName <span class="token operator">+</span> <span class="token string">')'</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+    <span class="token string">'Likes: '</span><span class="token punctuation">,</span> <span class="token function">LikeBox</span><span class="token punctuation">(</span>likes<span class="token punctuation">)</span><span class="token punctuation">,</span>
+    <span class="token function">LikeButton</span><span class="token punctuation">(</span>onClick<span class="token punctuation">)</span>
+  <span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token comment">//实现细节</span>
+<span class="token keyword">var</span> likes <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
+<span class="token keyword">function</span> <span class="token function">addOneMoreLike</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  likes<span class="token operator">++</span><span class="token punctuation">;</span>
+  <span class="token function">rerender</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token function">FancyUserBox</span><span class="token punctuation">(</span>
+  <span class="token punctuation">{</span> chineseName<span class="token operator">:</span> <span class="token string">'马爸爸'</span><span class="token punctuation">,</span> englishName<span class="token operator">:</span> <span class="token string">'Jack Ma'</span> <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  likes<span class="token punctuation">,</span>
+  addOneMoreLike
+<span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre></div><p>用户点击LikeButton的事件交给上层处理，这样的好处是，下层只管无脑展示，不改变状态，保持不可变性。上层实现细节会更新likes，之后会触发rerender。状态应该是不可变的(所有改变状态的行为都可以称之为副作用)，上例直接修改了状态（应该生成一个新的状态）是为了简化示例，实际编码中不推荐</p><p></p> <h4 id="_0x05-记忆化-memoization">0x05 记忆化(Memoization)</h4> <p><a href="https://en.wikipedia.org/wiki/Memoization#:~:text=In%20computing%2C%20memoization%20or%20memoisation,the%20same%20inputs%20occur%20again.">记忆化</a>
+是编程中常常采用的一种提高程序运行速度的优化技术，对于纯函数，相同的输入，必会有相同输出，因此可以把相应参数的执行结果缓存下来，下次有相同输入时，直接返回缓存结果，减少函数调用开销。</p><p></p> <blockquote><p>当我们知道一个函数是纯函数时，反复的调用是一种浪费，我们可以创建一个具有记忆能力的函数版本：总是缓存最近的输入和输出，如果输入没有变化，返回缓存结果，就没必要再执行了</p></blockquote> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">function</span> <span class="token function">memoize</span><span class="token punctuation">(</span><span class="token parameter">fn</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token keyword">var</span> cachedArg<span class="token punctuation">;</span>
+  <span class="token keyword">var</span> cachedResult<span class="token punctuation">;</span>
+  <span class="token keyword">return</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token parameter">arg</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">if</span> <span class="token punctuation">(</span>cachedArg <span class="token operator">===</span> arg<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      <span class="token keyword">return</span> cachedResult<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+    cachedArg <span class="token operator">=</span> arg<span class="token punctuation">;</span>
+    cachedResult <span class="token operator">=</span> <span class="token function">fn</span><span class="token punctuation">(</span>arg<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token keyword">return</span> cachedResult<span class="token punctuation">;</span>
+  <span class="token punctuation">}</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token keyword">var</span> MemoizedVipBox <span class="token operator">=</span> <span class="token function">memoize</span><span class="token punctuation">(</span>VipBox<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token keyword">function</span> <span class="token function">NameAndAgeBox</span><span class="token punctuation">(</span><span class="token parameter">user<span class="token punctuation">,</span> currentTime</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token keyword">return</span> <span class="token function">FancyBox</span><span class="token punctuation">(</span><span class="token punctuation">[</span>
+    <span class="token string">'Name: '</span><span class="token punctuation">,</span>
+    <span class="token function">MemoizedVipBox</span><span class="token punctuation">(</span>user<span class="token punctuation">.</span>chineseName <span class="token operator">+</span> <span class="token string">'('</span> <span class="token operator">+</span> user<span class="token punctuation">.</span>englishName <span class="token operator">+</span> <span class="token string">')'</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+    <span class="token string">'Age in milliseconds: '</span><span class="token punctuation">,</span>
+    currentTime <span class="token operator">-</span> user<span class="token punctuation">.</span>dateOfBirth
+  <span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre></div><p>上例中，对于同一个user，MemoizedVipBox的参数是不变的，VipBox只会执行一次。memoize函数，简单的理解就是一个wrapper或者delegate。</p>
+上面着重介绍了React的几种核心思想，参考自中文翻译及原文，为方便理解，我对部分例子进行了修改，更多内容可自行查看<a href="https://github.com/react-guide/react-basic">React 设计思想(中文版)</a>、<a href="https://github.com/reactjs/react-basic">React 设计思想(原文)</a><p></p><p></p> <h3 id="react-js介绍">react.js介绍</h3> <p>react.js是React设计思想的一种实现，下面是经典的HelloWorld程序，基于React.js实现</p> <code>index.js</code><p></p> <div class="language-js extra-class"><div class="highlight-lines"><br><br><br><br><br><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><br><br><br><br><div class="highlighted"> </div><br><br><br></div><pre class="language-js"><code><span class="token keyword">import</span> React <span class="token keyword">from</span> <span class="token string">'react'</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> ReactDOM <span class="token keyword">from</span> <span class="token string">'react-dom'</span><span class="token punctuation">;</span>
+<span class="token keyword">function</span> <span class="token function">App</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+  <span class="token keyword">return</span> <span class="token punctuation">(</span>
+     <span class="token operator">&lt;</span>div<span class="token operator">&gt;</span>
+         <span class="token operator">&lt;</span>p<span class="token operator">&gt;</span>Hello<span class="token punctuation">,</span>World<span class="token operator">&lt;</span><span class="token operator">/</span>p<span class="token operator">&gt;</span>
+     <span class="token operator">&lt;</span><span class="token operator">/</span>div<span class="token operator">&gt;</span> 
+  <span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+ReactDOM<span class="token punctuation">.</span><span class="token function">render</span><span class="token punctuation">(</span>
+  <span class="token operator">&lt;</span>App<span class="token operator">/</span><span class="token operator">&gt;</span><span class="token punctuation">,</span>
+  document<span class="token punctuation">.</span><span class="token function">getElementById</span><span class="token punctuation">(</span><span class="token string">'root'</span><span class="token punctuation">)</span>
+<span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre></div><p>App方法中出现了类似于html的标签，这种写法称之为<a href="https://reactjs.org/docs/introducing-jsx.html">JSX</a>,一种JS语法扩展，JSX代码会通过编译器(<a href="https://babeljs.io/">Babel</a>)转为标准JS语法，转换过程如下：</p><p></p> <p><code>jsx</code></p> <div class="language-jsx extra-class"><pre class="language-jsx"><code><span class="token keyword">function</span> <span class="token function">App</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+  <span class="token keyword">return</span> <span class="token punctuation">(</span>
+     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span><span class="token punctuation">&gt;</span></span><span class="token plain-text">
+         </span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">&gt;</span></span><span class="token plain-text">Hello,World</span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">&gt;</span></span><span class="token plain-text">
+     </span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span> 
+  <span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre></div><p><code>经过Babel编译后的标准js</code></p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">function</span> <span class="token function">App</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token keyword">return</span> React<span class="token punctuation">.</span><span class="token function">createElement</span><span class="token punctuation">(</span>
+    <span class="token string">&quot;div&quot;</span><span class="token punctuation">,</span>
+    <span class="token keyword">null</span><span class="token punctuation">,</span>
+    React<span class="token punctuation">.</span><span class="token function">createElement</span><span class="token punctuation">(</span><span class="token string">&quot;p&quot;</span><span class="token punctuation">,</span> <span class="token keyword">null</span><span class="token punctuation">,</span> <span class="token string">&quot;Hello,World&quot;</span><span class="token punctuation">)</span>
+  <span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre></div><p><code>React最终返回一个Js对象</code></p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">function</span> <span class="token function">App</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">return</span> <span class="token punctuation">{</span>
+        type<span class="token operator">:</span> <span class="token string">'div'</span><span class="token punctuation">,</span>
+        props<span class="token operator">:</span> <span class="token punctuation">{</span>
+            children<span class="token operator">:</span> <span class="token punctuation">{</span>
+                type<span class="token operator">:</span> <span class="token string">'p'</span><span class="token punctuation">,</span>
+                props<span class="token operator">:</span> <span class="token punctuation">{</span>
+                    children<span class="token operator">:</span> <span class="token string">'Hello,World'</span>
+                <span class="token punctuation">}</span>
+            <span class="token punctuation">}</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre></div><p>这样看来，和React思想介绍中的例子是不是就差不多了。</p><p></p> <p>以下是App的另一种实现，继承React.Component，React.Component会提供状态更新、组件生命周期相关的方法，上面在介绍React思想时，为了便于理解举的例子都很具体，所有就有很多名称各异的方法，如果使用React.Component，那代表UI的方法就只有一个，即<b>render</b></p> <div class="language-js extra-class"><pre class="language-js"><code>
+<span class="token keyword">class</span> <span class="token class-name">App</span> <span class="token keyword">extends</span> <span class="token class-name">React<span class="token punctuation">.</span>Component</span><span class="token punctuation">{</span>
+  <span class="token function">render</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+    <span class="token keyword">return</span> <span class="token punctuation">(</span>
+      <span class="token operator">&lt;</span>div<span class="token operator">&gt;</span>
+          <span class="token operator">&lt;</span>p<span class="token operator">&gt;</span>Hello<span class="token punctuation">,</span>World<span class="token operator">&lt;</span><span class="token operator">/</span>p<span class="token operator">&gt;</span>
+      <span class="token operator">&lt;</span><span class="token operator">/</span>div<span class="token operator">&gt;</span> 
+   <span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre></div><p>React认为渲染逻辑(让UI展示)和UI逻辑(UI怎么布置)的耦合是天然的：事件之处理，状态之变化，数据之展示等，与其将标签和逻辑放在不同的文件中管理，不如通过“组件”的方式来管理，即组件同时包含了标签和逻辑，通过一个个独立的组件单元实现<a href="https://en.wikipedia.org/wiki/Separation_of_concerns">separates concerns</a>。此外，在代码里写标签对于很多人是一种直观的编程体验。更多介绍参考：<a href="https://www.youtube.com/watch?v=x7cQ3mrcKaY">Pete Hunt: React: Rethinking best practices -- JSConf EU</a>，视频里介绍了React为什么要用JSX，为什么要使用组件管理UI和逻辑，实现<a href="https://en.wikipedia.org/wiki/Separation_of_concerns">separates concerns</a></p><p></p> <p>react.js体现记忆化(Memoization)思想的地方在于使用了Virtual DOM技术，App.render方法虽然返回了类似html的标签结构，但那不是html，经过Babel的编译，会成为ReactNode节点树，全是原生JS对象，而非Dom元素。关于Virtual DOM，可以参考<a href="https://github.com/livoras/blog/issues/13">深度剖析：如何实现一个 Virtual DOM 算法</a>，其核心是：</p> <ul><li>步骤一：用JS对象模拟DOM树</li> <li>步骤二：比较两棵虚拟DOM树的差异</li> <li>步骤三：把差异应用到真正的DOM树上</li></ul> <h3 id="后续">后续</h3> <h4 id="react-native">React-Native</h4> <div class="language-dart extra-class"><pre class="language-dart"><code><span class="token function">Tech</span><span class="token punctuation">(</span>
+  name<span class="token punctuation">:</span><span class="token string">'React-Native'</span><span class="token punctuation">,</span>
+  since<span class="token punctuation">:</span><span class="token string">'2014'</span>
+<span class="token punctuation">)</span>
+</code></pre></div><p>React Native是Facebook开发的开源移动应用开发框架，基于React，支持平台特性，React Native的设计思想是基于React的，就不展开讲了。相较于React，React Native不会通过虚Dom操作Dom，而是将组件翻译成平台对应的UI控件，因此UI渲染是原生渲染，所以性能会比WebView渲染高。</p><p></p> <table><thead><tr><th>React Native</th> <th style="text-align:center;">Android View</th> <th style="text-align:right;">iOS View</th></tr></thead> <tbody><tr><td><code>&lt;View&gt;</code></td> <td style="text-align:center;"><code>&lt;ViewGroup&gt;</code></td> <td style="text-align:right;"><code>&lt;UIView&gt;</code></td></tr> <tr><td><code>&lt;Text&gt;</code></td> <td style="text-align:center;"><code>&lt;TextView&gt;</code></td> <td style="text-align:right;"><code>&lt;UITextView&gt;</code></td></tr> <tr><td><code>&lt;Image&gt;</code></td> <td style="text-align:center;"><code>&lt;ImageView&gt;</code></td> <td style="text-align:right;"><code>&lt;UIImageView&gt;</code></td></tr></tbody></table> <p>React Native版的HelloWorld程序，注意React Native版的HelloWorld程序没有导入ReactDOM依赖</p><p></p> <code>index.js</code><p></p> <div class="language-js extra-class"><div class="highlight-lines"><br><br><br><br><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><br><br><br></div><pre class="language-js"><code><span class="token keyword">import</span> React<span class="token punctuation">,</span> <span class="token punctuation">{</span> Component <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'react'</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> <span class="token punctuation">{</span>AppRegistry<span class="token punctuation">,</span>Text <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'react-native'</span><span class="token punctuation">;</span>
+<span class="token keyword">class</span> <span class="token class-name">App</span> <span class="token keyword">extends</span> <span class="token class-name">Component</span><span class="token punctuation">{</span>
+  <span class="token function">render</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+    <span class="token keyword">return</span> <span class="token operator">&lt;</span>Text<span class="token operator">&gt;</span>Hello<span class="token punctuation">,</span>World<span class="token operator">&lt;</span><span class="token operator">/</span>Text<span class="token operator">&gt;</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+AppRegistry<span class="token punctuation">.</span><span class="token function">registerComponent</span><span class="token punctuation">(</span><span class="token string">'HelloWorld'</span><span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> App<span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre></div><h4 id="flutter">Flutter</h4> <div class="language-dart extra-class"><pre class="language-dart"><code><span class="token function">Tech</span><span class="token punctuation">(</span>
+  name<span class="token punctuation">:</span><span class="token string">'Flutter'</span><span class="token punctuation">,</span>
+  since<span class="token punctuation">:</span><span class="token string">'2015'</span>
+<span class="token punctuation">)</span>
+</code></pre></div><p>Flutter在2015 Dart developer summit首次发布，是一个跨平台应用开发框架， 目前支持Android, iOS, Linux, Mac, Windows, Google Fuchsia及Web等多个平台</p>
+Flutter版的HelloWorld程序<p></p><p></p> <p><code>main.dart</code></p> <div class="language-dart extra-class"><div class="highlight-lines"><br><br><br><br><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><br><br><br><br><br><br></div><pre class="language-dart"><code><span class="token keyword">import</span> <span class="token string">'package:flutter/material.dart'</span><span class="token punctuation">;</span>
+<span class="token keyword">class</span> <span class="token class-name">App</span> <span class="token keyword">extends</span> <span class="token class-name">StatelessWidget</span> <span class="token punctuation">{</span>
+  <span class="token metadata symbol">@override</span>
+  Widget <span class="token function">build</span><span class="token punctuation">(</span>BuildContext context<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">return</span> <span class="token function">Center</span><span class="token punctuation">(</span>
+      child<span class="token punctuation">:</span> <span class="token function">Text</span><span class="token punctuation">(</span>
+        <span class="token string">'Hello,World'</span><span class="token punctuation">,</span>
+        textDirection<span class="token punctuation">:</span> TextDirection<span class="token punctuation">.</span>ltr<span class="token punctuation">,</span>
+      <span class="token punctuation">)</span><span class="token punctuation">,</span>
+    <span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+<span class="token keyword">void</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token function">runApp</span><span class="token punctuation">(</span><span class="token function">App</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre></div><p>在Flutter中<b>Widget</b>是对于UI的描述(A widget is an immutable description of part of a user interface)，是一种配置，这种配置被Element使用。在上例中，App的build方法每次被调用，都会创建新的Center和Text对象（都是Widget），因为Widget本质是一种配置，可以理解为数据类，所以创建的开销很小，Widget描述的UI效果要真正展示在屏幕上，还需要经过Element树和RenderObject树的配合，这个过程中，Widget的创建，不一定伴随Element的创建，后者可能只是更新而已。Flutter的设计思想显然与React如出一格。</p> <h4 id="jetpack-compose">JetPack Compose</h4> <div class="language-dart extra-class"><pre class="language-dart"><code><span class="token function">Tech</span><span class="token punctuation">(</span>
+  name<span class="token punctuation">:</span><span class="token string">'JetPack Compose'</span><span class="token punctuation">,</span>
+  since<span class="token punctuation">:</span><span class="token string">'2019'</span>
+<span class="token punctuation">)</span>
+</code></pre></div><p>Jetpack Compose是近年由Google推出的基于Kotlin的用于构建原生 Android 界面的工具包，支持在代码中通过声明式的方式创建UI组件</p> <code>MainActivity.kt</code><p></p><p></p> <div class="language-kotlin extra-class"><pre class="language-kotlin"><code><span class="token keyword">class</span> MainActivity <span class="token operator">:</span> <span class="token function">AppCompatActivity</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">override</span> <span class="token keyword">fun</span> <span class="token function">onCreate</span><span class="token punctuation">(</span>savedInstanceState<span class="token operator">:</span> Bundle<span class="token operator">?</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">super</span><span class="token punctuation">.</span><span class="token function">onCreate</span><span class="token punctuation">(</span>savedInstanceState<span class="token punctuation">)</span>
+        setContent <span class="token punctuation">{</span>
+            <span class="token function">App</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+    <span class="token comment">//应用组件</span>
+    <span class="token annotation builtin">@Composable</span>
+    <span class="token keyword">fun</span> <span class="token function">App</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+        <span class="token function">Greeting</span><span class="token punctuation">(</span><span class="token string">&quot;World&quot;</span><span class="token punctuation">)</span>
+    <span class="token punctuation">}</span>
+    <span class="token comment">//打招呼组件</span>
+    <span class="token annotation builtin">@Composable</span>
+    <span class="token keyword">fun</span> <span class="token function">Greeting</span><span class="token punctuation">(</span>name<span class="token operator">:</span> String<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token comment">//文本组件</span>
+        <span class="token function">Text</span> <span class="token punctuation">(</span>text <span class="token operator">=</span> <span class="token string">&quot;Hello <span class="token interpolation variable">$name</span>!&quot;</span><span class="token punctuation">)</span>
+    <span class="token punctuation">}</span>
+    <span class="token comment">//预览组件，@Preview注释的组件会在AS中实时渲染</span>
+    <span class="token annotation builtin">@Preview</span>
+    <span class="token annotation builtin">@Composable</span>
+    <span class="token keyword">fun</span> <span class="token function">PreviewGreeting</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token function">App</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre></div><p>Jetpack Compose框架似乎深刻吸收了React的核心思想，将UI理解为一种数据到另一种数据的映射，用纯函数来表现UI，再利用抽象和组合复用已有组件实现复杂的功能。Google官方说Jetpack Compose是Android未来的UI开发工具包，看来是对其寄予厚望的。目前Google基于LiveData和ViewMode的MVVM架构，写起来总觉得少点什么，没错就是UI数据的自动绑定，虽然data-binding早就出来了，但是在xml中写逻辑总觉得不爽，有了Jetpack Compose，声明式的数据绑定就很容易实现。</p><p></p> <h3 id="总结">总结</h3> <p>虽然是一篇以React为题的文章，但本文着重探讨了React的设计思想及其对后续一些应用开发框架/架构产生的影响，可以看到web开发技术/架构是如何向原生开发渗透的，其实Android最近比较热的MVI架构也是源于于web。React/React-Native/Flutter/Jetpack Compose,总体看起来是如此相像，我们再写UI时，只要按照各个框架的规则编写声明式的UI组件即可，底层对我们来说几乎透明，然而，各个框架底层为我们做了大量的事，react.js的虚拟Dom，Flutter的三棵树，除了保证UI更新的效率，还要把UI描述转换为UI渲染指令，最终通过底层图形框架的合成，展示到屏幕，对于底层原理我们也要心知肚明。此外，限于篇幅，本文没有介绍react组件的状态，后续文章将会介绍，另外会介绍单向数据流的应用，敬请期待 ☀️。</p></div> <footer class="page-edit" style="display:none;"><!----> <!----></footer> <!----> <!----> <!----></main> <!----></div></div></div></div><div class="global-ui"><div class="back-to-ceiling" style="right:1rem;bottom:6rem;width:2.5rem;height:2.5rem;border-radius:.25rem;line-height:2.5rem;display:none;" data-v-c6073ba8 data-v-c6073ba8><svg t="1574745035067" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="5404" class="icon" data-v-c6073ba8><path d="M526.60727968 10.90185116a27.675 27.675 0 0 0-29.21455937 0c-131.36607665 82.28402758-218.69155461 228.01873535-218.69155402 394.07834331a462.20625001 462.20625001 0 0 0 5.36959153 69.94390903c1.00431239 6.55289093-0.34802892 13.13561351-3.76865779 18.80351572-32.63518765 54.11355614-51.75690182 118.55860487-51.7569018 187.94566865a371.06718723 371.06718723 0 0 0 11.50484808 91.98906777c6.53300375 25.50556257 41.68394495 28.14064038 52.69160883 4.22606766 17.37162448-37.73630017 42.14135425-72.50938081 72.80769204-103.21549295 2.18761121 3.04276886 4.15646224 6.24463696 6.40373557 9.22774369a1871.4375 1871.4375 0 0 0 140.04691725 5.34970492 1866.36093723 1866.36093723 0 0 0 140.04691723-5.34970492c2.24727335-2.98310674 4.21612437-6.18497483 6.3937923-9.2178004 30.66633723 30.70611158 55.4360664 65.4791928 72.80769147 103.21549355 11.00766384 23.91457269 46.15860503 21.27949489 52.69160879-4.22606768a371.15156223 371.15156223 0 0 0 11.514792-91.99901164c0-69.36717486-19.13165746-133.82216804-51.75690182-187.92578088-3.42062944-5.66790279-4.76302748-12.26056868-3.76865837-18.80351632a462.20625001 462.20625001 0 0 0 5.36959269-69.943909c-0.00994388-166.08943902-87.32547796-311.81420293-218.6915546-394.09823051zM605.93803103 357.87693858a93.93749974 93.93749974 0 1 1-187.89594924 6.1e-7 93.93749974 93.93749974 0 0 1 187.89594924-6.1e-7z" p-id="5405" data-v-c6073ba8></path><path d="M429.50777625 765.63860547C429.50777625 803.39355007 466.44236686 1000.39046097 512.00932183 1000.39046097c45.56695499 0 82.4922232-197.00623328 82.5015456-234.7518555 0-37.75494459-36.9345906-68.35043303-82.4922232-68.34111062-45.57627738-0.00932239-82.52019037 30.59548842-82.51086798 68.34111062z" p-id="5406" data-v-c6073ba8></path></svg></div></div></div>
+    <script src="/assets/js/app.4d1d1895.js" defer></script><script src="/assets/js/4.aa2997f2.js" defer></script><script src="/assets/js/1.595ede1b.js" defer></script><script src="/assets/js/12.e3cda7b2.js" defer></script>
+  </body>
+</html>
